@@ -1,149 +1,180 @@
 <!DOCTYPE html>
-   <!doctype html>
+<!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Basic meta -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
+
     <!-- FontAwesome CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <title>Bang bang and skid skid nigga</title>
     <style>
+        .col-md-auto a {
+            color: black;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
         .banner {
             width: 100%;
-            align-content: center;
+            text-align: center;
+            padding-top: 6%;
+            padding-bottom: 6%;
             background-color: lightgrey;
-            
-       
-      </style>
-    
-  </head>
-<body>
-<!-- nav bar -->
-<div class="container">
-    <div class="row align-items-start">
-        <div class="col">logo</div>
-        <div class="col-2">nada</div>
-        <div class="col-md-auto"><a href="blank">Home</a></div>
-        <div class="col-md-auto"><a href="blank">Template</a></div>
-        <div class="col-md-auto"><a href="blank">Typography</a></div>
-        <div class="col-md-auto"><a href="blank">Module variations</a></div>
-        <div class="col-md-auto"><a href="blank">Module positions</a></div>
-        <div class="col-md-auto"><a href="blank">Joomla! templates</a></div>
-        <div class="col-md-auto"><a href="blank">K2</a></div>
-        <div class="col-md-auto"><a href="blank">cobalt</a></div>
-    </div>
-</div>
-    <!-- Banner with graphics -->
-       <div class="container">
-        <div class="banner">
-            <h1>Hello, everyone!</h1>
-            <p>I'm new and really free Joomla 3.0 template based on the new version of the Gavern Framework<br>which features built in support for Bootstrap</p>
-            <div class="row justify-content-around">
-                <div class="col-4"><button class="view-details">View details</button>
-                </div>
-                <div class="col-4">
-                <button class="download">Download</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Main -->   
-       <div class="container">
-        <div class="main">
-    <!-- Icons -->
-           <div class="row">
-               <div class="col"><i class="fab fa-joomla" style="font-size: 80px; margin: 30px; margin-bottom: 5px; color: orange"></i></div>
-               <div class="col">
-<i class="fas fa-bold" style="font-size: 80px; margin: 30px; margin-bottom: 5px; color: black"></i></div>
-               <div  class="col"><i class="fas fa-desktop" style="font-size: 80px; margin: 30px; margin-bottom: 5px; color: #0088ff"></i>
+        }
 
-</div>
-               </div>
-    <!-- Titles -->
-            <div class="row">
-            <div class="col">Free Joomla! 3.0 Template</div>
-            <div class="col">Gavern + Bootstrap</div>
-            <div class="col">Responsive Web Design</div>    
-            </div>
-        </div>
-    <!-- Descriptions -->
-     <div class="row">
-            <div class="col">This is our first and free template built especially for<br>Joomla! 3.0 Want to know more about Joomla 3.0?</div>
-            <div class="col">Meet Gaver is based upon brand new version of<br>the Gavern framework which features built in support<br>for Bootstrap </div>
-            <div class="col">Joomla! and Gavern Framework are prepared to support Responsive Web Design</div>
-            </div>
-    <!-- Read More Buttons -->
-        <div class="row">
-            <div class="col"><button class="button">Read More</button></div>
-            <div class="col"><button class="button">Read More</button></div>
-            <div class="col"><button class="button">Read More</button></div>    
-            </div>
-        </div>
-    <!-- Footer -->
+        h1 b:first-child {
+            color: #0088ff;
+        }
+
+        .view-details {
+            float: right;
+        }
+
+        .downaload {
+            position: relative;
+            float: left;
+            margin-left: 20px;
+        }
+
+        .main p {
+        text-align: center;    
+        
+        }
+        .main .button {
+            margin-left: 35%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- nav bar -->
     <div class="container">
+        <div class="row align-items-start" style="padding-bottom: 10px;">
+            <div class="col">logo</div>
+            <div class="col-2">&nbsp;</div>
+            <div class="col-md-auto"><a href="blank">Home</a></div>
+            <div class="col-md-auto"><a href="blank">Template</a></div>
+            <div class="col-md-auto"><a href="blank">Typography</a></div>
+            <div class="col-md-auto"><a href="blank">Module variations</a></div>
+            <div class="col-md-auto"><a href="blank">Module positions</a></div>
+            <div class="col-md-auto"><a href="blank">Joomla! templates</a></div>
+            <div class="col-md-auto"><a href="blank">K2</a></div>
+            <div class="col-md-auto"><a href="blank">cobalt</a></div>
+        </div>
+    </div>
+    <!-- Banner with graphics -->
+    <div class="container" style="padding-bottom: 15px;">
+        <div class="banner">
+            <h1>Hello, <b>everyone!</b></h1>
+            <p>I'm new and really free Joomla 3.0 template based on the new version of the Gavern Framework<br>which features built in support for Bootstrap</p>
+            <div class="row">
+                <div class="col"><button class="view-details">View details</button>
+                </div>
+                <div class="col">
+                    <button class="download">Download</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <div class="container">
+        <div class="main">
+               
+            <div class="row">
+                <div class="col"><i class="fab fa-joomla" style="font-size: 80px; padding-left: 40%; color: orange"></i><p><b>Free Joomla! 3.0 Template</b></p><p style="font-size: 12px">This is our first and free template built especially for Joomla! 3.0 Want to know more about Joomla 3.0?</p><button class="button">Read More</button></div>
+                <div class="col">
+                    <i class="fas fa-bold" style="font-size: 80px; padding-left: 40%; color: black"></i><p><b>Gavern + Bootstrap</b></p><p style="font-size: 12px">Meet Gaver is based upon brand new version of the Gavern framework which features built in support for Bootstrap</p><button class="button" style="text-align: center">Read More</button></div>
+                <div class="col"><i class="fas fa-desktop" style="font-size: 80px; padding-left: 40%; color: #0088ff"></i><p><b>Responsive Web Design</b></p><p style="font-size: 12px">Joomla! and Gavern Framework are prepared to support Responsive Web Design</p><button class="button">Read More</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bottom menu -->
+    <hr>
+       <div class="container">
         <div class="row" style="padding: 40px">
             <div class="col">
-                <ul id="nav"> 
-                    <li>menu item</li>  
-                    <li>menu item</li> 
-                    <li>menu item</li>  
-                    <li>menu item</li> 
-                    <li>menu item</li> 
-                </ul> 
+                <ul id="nav">
+                    Weblinks
+                    <li>Joomia 3.0 Templates</li>
+                    <li>Support team</li>
+                    <li>Documentation</li>
+                    <li>Gavick Pro Blog</li>
+                    <li>Gavick Pro on Github</li>
+                </ul>
             </div>
             <div class="col">
-                <ul id="nav"> 
-                    <li>menu item</li>  
-                    <li>menu item</li> 
-                    <li>menu item</li>  
-                    <li>menu item</li> 
-                    <li>menu item</li> 
-                </ul> 
+                <ul id="nav">
+                    Hotlinks
+                    <li>Joomia Templates</li>
+                    <li>Bikestore?</li>
+                    <li>Music Free</li>
+                    <li>Fashion</li>
+                    <li>Our portfolio</li>
+                </ul>
             </div>
             <div class="col">
-                <ul id="nav"> 
-                    <li>menu item</li>  
-                    <li>menu item</li> 
-                    <li>menu item</li>  
-                    <li>menu item</li> 
-                    <li>menu item</li> 
-                </ul> 
+                <ul id="nav">
+                   Templates
+                    <li>Bikestore</li>
+                    <li>Music Free</li>
+                    <li>Fashion</li>
+                    <li>Restaurant</li>
+                    <li>AppProTech</li>
+                    
+                </ul>
             </div>
             <div class="col">
-                <ul id="nav"> 
-                    <li>menu item</li>  
-                    <li>menu item</li> 
-                    <li>menu item</li>  
-                    <li>menu item</li> 
-                    <li>menu item</li> 
-                </ul> 
+                <ul id="nav">
+                   Freebies
+                    <li>Dream Flower</li>
+                    <li>Free Portfolio</li>
+                    <li>Roberto?</li>
+                    <li>Gasolina</li>
+                    <li>Trybokah</li>
+                </ul>
             </div>
             <div class="col">
-                <ul id="nav"> 
-                    <li>menu item</li>  
-                    <li>menu item</li> 
-                    <li>menu item</li>  
-                    <li>menu item</li> 
-                    <li>menu item</li> 
-                </ul> 
+                <ul id="nav">
+                   Important
+                    <li>Updates</li>
+                    <li>Affiliates</li>
+                    <li>Help desk</li>
+                    <li>Validate license</li>
+                    <li>Contact</li>
+                </ul>
             </div>
             <div class="col">
-                <ul id="nav"> 
-                    <li>menu item</li>  
-                    <li>menu item</li> 
-                    <li>menu item</li>  
-                    <li>menu item</li> 
-                    <li>menu item</li> 
-                </ul> 
-            </div>        
+                <ul id="nav">
+                   Share
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>RSS</li>
+                    <li>Google +</li>
+                    <li>Github</li>
+                </ul>
+            </div>
         </div>
-    </div>    
+    </div>
+    <hr>
+    <!-- Footer -->
+    <div class="container">
+        
+    </div>
+        
     
-    </body>
+</body>
+
 </html>
