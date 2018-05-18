@@ -30,9 +30,11 @@
             padding-bottom: 6%;
             background-color: lightgrey;
         }
-        h1{
+
+        h1 {
             font-size: 66px;
         }
+
         h1 b:first-child {
             color: #0088ff;
         }
@@ -46,12 +48,20 @@
             padding: 8px 30px;
             background-color: #0088ff;
             color: white;
+            cursor: pointer;
+            outline: none;
+            border-radius: 3px;
         }
-
+        .view-details:hover {
+            background-color: #0099ff;
+        }
         .download {
             padding: 8px 30px;
-            background-color: orange;
+            background-color: #FFA500;
             color: white;
+            cursor: pointer;
+            outline: none;
+            border-radius: 3px;
         }
 
 
@@ -71,7 +81,10 @@
             font-size: 10px;
             margin-top: 10px;
             margin-bottom: 10px;
-
+        }
+        .col-2-auto {
+            padding-top: 50px;
+        }
     </style>
 
 </head>
@@ -119,7 +132,7 @@
                     <i class="fas fa-bold" style="font-size: 80px; padding-left: 40%; color: black"></i>
                     <h6><b>Gavern + Bootstrap</b></h6>
                     <p style="font-size: 12px">Meet Gaver is based upon brand new version of the Gavern framework which features built in support for Bootstrap</p><button class="button" style="text-align: center">Read More</button></div>
-                <div class="col-3"><i class="fas fa-desktop" style="font-size: 80px; padding-left: 40%; color: #0088ff"></i>
+                <div class="col-3"><i class="fas fa-desktop" style="font-size: 80px; padding-left: 33%; color: #0088ff"></i>
                     <h6><b>Responsive Web Design</b></h6>
                     <p style="font-size: 12px">Joomla! and Gavern Framework are prepared to support Responsive Web Design</p><button class="button">Read More</button>
 
@@ -210,8 +223,11 @@
             </div>
         </div>
         <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col-md-auto">LOGO</div>
+            <div class="row justify-content-center">
+                <div class="col-2-auto">LOGO</div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam perspiciatis cupiditate architecto rerum sunt dolor, ut odit? Cupiditate quaerat iusto nemo nobis vel eligendi, adipisci, atque, sunt exercitationem magni porro.</div>
             </div>
         </div>
     </footer>
